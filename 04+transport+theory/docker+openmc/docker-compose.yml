@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  openmc:
+    build:
+      context: .
+    volumes:
+      - ".:/home/root/openmc"
